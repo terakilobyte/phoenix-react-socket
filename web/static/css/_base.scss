@@ -1,0 +1,31 @@
+// Settings go here
+
+
+@import 'vendor/normalize';
+@import 'vendor/bourbon/bourbon';
+
+@import 'colors';
+@import 'theme';
+
+html, body {
+  height: 100%;
+  margin: 0 auto;
+  background-color: $background;
+  color: $textColor;
+  font-family: $fontFamily;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mainbody {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.view-container {
+  position: relative;
+  transform: translateY(7vh);
+}
+
